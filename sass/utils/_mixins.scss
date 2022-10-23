@@ -1,0 +1,7 @@
+@function decimal-round($number, $digits: 0, $mode: round) {
+}
+
+@mixin font ($fs, $lh) {
+    font-size: $fs;
+    line-height: decimal-round($lh / $fs, 2);
+}
